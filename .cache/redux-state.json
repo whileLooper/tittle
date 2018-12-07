@@ -1,22 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "jsonName": "dev-404-page-5f9",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/bochen/Documents/gatsby-starter-dimension/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/bochen/Documents/gatsby-starter-dimension/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0dad54395c73ebd5ac8e94868edd48c3",
-        "description": "Plugin dev-404-page",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -585,6 +576,10 @@
           {
             "name": "react-youtube",
             "version": "^7.8.0"
+          },
+          {
+            "name": "styled-components",
+            "version": "^4.1.2"
           }
         ],
         "devDependencies": [
@@ -706,17 +701,35 @@
         "author": "Hunter Chang",
         "description": "A Gatsby.js V2 Starter based on Dimension by HTML5 UP"
       },
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-12-07T03:02:14.996Z",
+      "buildTime": "2018-12-07T17:02:56.163Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "7da902e5181882e4743b9db8f0e0c22d",
+        "contentDigest": "087796bbac9a0546af9aaba2ab9e2941",
         "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /offline-plugin-app-shell-fallback/": {
+      "jsonName": "offline-plugin-app-shell-fallback-a30",
+      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
+      "path": "/offline-plugin-app-shell-fallback/",
+      "component": "/Users/bochen/Documents/gatsby-starter-dimension/node_modules/gatsby-plugin-offline/app-shell.js",
+      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-offline",
+      "pluginCreatorId": "Plugin gatsby-plugin-offline",
+      "componentPath": "/Users/bochen/Documents/gatsby-starter-dimension/node_modules/gatsby-plugin-offline/app-shell.js",
+      "id": "SitePage /offline-plugin-app-shell-fallback/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "56380029a073c34fb9133e58889e1891",
+        "description": "Plugin gatsby-plugin-offline",
         "owner": "internal-data-bridge"
       }
     },
@@ -803,7 +816,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "2e6ad5fd245fd68202579cb2871123cf"
+    "PLUGINS_HASH": "560f01d7e2138f00dcef88003aaf8d31"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -819,12 +832,13 @@
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
     "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
-    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E"
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/Users/bochen/Documents/gatsby-starter-dimension/.cache/dev-404-page.js": {
+    "/Users/bochen/Documents/gatsby-starter-dimension/node_modules/gatsby-plugin-offline/app-shell.js": {
       "query": "",
-      "componentPath": "/Users/bochen/Documents/gatsby-starter-dimension/.cache/dev-404-page.js"
+      "componentPath": "/Users/bochen/Documents/gatsby-starter-dimension/node_modules/gatsby-plugin-offline/app-shell.js"
     },
     "/Users/bochen/Documents/gatsby-starter-dimension/src/pages/404.js": {
       "query": "",
