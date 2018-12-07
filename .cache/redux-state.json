@@ -1,13 +1,22 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/bochen/Documents/gatsby-starter-dimension/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/bochen/Documents/gatsby-starter-dimension/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "0dad54395c73ebd5ac8e94868edd48c3",
+        "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
     },
@@ -281,7 +290,7 @@
         "background_color": "#663399",
         "theme_color": "#663399",
         "display": "minimal-ui",
-        "icon": "src/images/gatsby-icon.png"
+        "icon": "src/images/vinyl.png"
       },
       "nodeAPIs": [
         "onPostBootstrap"
@@ -350,7 +359,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "f88d8c088bff185c32414177335f1576",
+        "contentDigest": "a796df64bcac822f787b56da25946b9e",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -519,7 +528,7 @@
       "resolve": "/Users/bochen/Documents/gatsby-starter-dimension",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "dc8d30425ad03a818c6f938dc0560872",
+      "version": "77bc279bbafffdff0182f9c1510d7a76",
       "pluginOptions": {
         "plugins": []
       },
@@ -595,7 +604,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "1cbc3ff80d760c38b36238f987dff8ac",
+        "contentDigest": "58bbed32bed865bd0a257ffff439c954",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -701,35 +710,17 @@
         "author": "Hunter Chang",
         "description": "A Gatsby.js V2 Starter based on Dimension by HTML5 UP"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-12-07T17:02:56.163Z",
+      "buildTime": "2018-12-07T21:36:19.206Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "087796bbac9a0546af9aaba2ab9e2941",
+        "contentDigest": "2c73355e32a47e637dbc23cede038bad",
         "type": "Site",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /offline-plugin-app-shell-fallback/": {
-      "jsonName": "offline-plugin-app-shell-fallback-a30",
-      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
-      "path": "/offline-plugin-app-shell-fallback/",
-      "component": "/Users/bochen/Documents/gatsby-starter-dimension/node_modules/gatsby-plugin-offline/app-shell.js",
-      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-offline",
-      "pluginCreatorId": "Plugin gatsby-plugin-offline",
-      "componentPath": "/Users/bochen/Documents/gatsby-starter-dimension/node_modules/gatsby-plugin-offline/app-shell.js",
-      "id": "SitePage /offline-plugin-app-shell-fallback/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "56380029a073c34fb9133e58889e1891",
-        "description": "Plugin gatsby-plugin-offline",
         "owner": "internal-data-bridge"
       }
     },
@@ -816,7 +807,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "560f01d7e2138f00dcef88003aaf8d31"
+    "PLUGINS_HASH": "482a13d6656c7a342eedd869514d356d"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -836,9 +827,9 @@
     "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/Users/bochen/Documents/gatsby-starter-dimension/node_modules/gatsby-plugin-offline/app-shell.js": {
+    "/Users/bochen/Documents/gatsby-starter-dimension/.cache/dev-404-page.js": {
       "query": "",
-      "componentPath": "/Users/bochen/Documents/gatsby-starter-dimension/node_modules/gatsby-plugin-offline/app-shell.js"
+      "componentPath": "/Users/bochen/Documents/gatsby-starter-dimension/.cache/dev-404-page.js"
     },
     "/Users/bochen/Documents/gatsby-starter-dimension/src/pages/404.js": {
       "query": "",
