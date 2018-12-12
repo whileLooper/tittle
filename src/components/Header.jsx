@@ -1,7 +1,8 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import styled from 'styled-components'
-import vinylImage from '../images/vinyl.png'
+import React from 'react';
+import PropTypes from 'prop-types';
+import styled from 'styled-components';
+import vinylImage from '../images/vinyl.png';
+import mittyCover from '../images/covers/thesecretlifeofwaltermitty.jpg';
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
@@ -13,11 +14,12 @@ const Header = props => (
       <div className="inner">
         <h1>The Secret Life of Walter Mitty</h1>
         <h3>白日梦想家</h3>
-        <p>
-          TO SEE THE WORLD, THINGS DANGEROUS TO COME TO,<br />
-          TO SEE BEHIND WALLS, TO DRAW CLOSER, TO FIND EACH OTHER AND TO FEEL. <br />
-          THAT IS THE PURPOSE OF LIFE.
-        </p>
+        <p>TO SEE THE WORLD, THINGS DANGEROUS TO COME TO</p>
+        <p>TO SEE BEHIND WALLS, TO DRAW CLOSER, TO FIND EACH OTHER AND TO FEEL. </p>
+        <p>THAT IS THE PURPOSE OF LIFE.</p>
+      </div>
+      <div className="album-container">
+        <img className="album-cover" src={mittyCover} alt="the secret life of walter mitty" />
       </div>
     </div>
     <nav>

@@ -62,6 +62,7 @@
 		}
 
 		.content {
+			display: inherit;
 			border-style: solid;
 			border-color: _palette(border);
 			border-top-width: _size(border-width);
@@ -69,6 +70,8 @@
 			max-width: 100%;
 
 			.inner {
+				width: 65%;
+				text-align: left;
 				@include vendor('transition', (
 					'max-height #{_duration(intro)} ease',
 					'padding #{_duration(intro)} ease',
@@ -81,6 +84,17 @@
 
 				> :last-child {
 					margin-bottom: 0;
+				}
+			}
+
+			.album-container {
+				width: 35%;
+				margin: auto;
+
+				.album-cover {
+					width: 100%;
+					border: 1px solid white;
+					padding: 2%;
 				}
 			}
 
@@ -168,6 +182,7 @@
 
 			.content {
 				.inner {
+					width: 65%;
 					max-height: 0;
 					padding-top: 0;
 					padding-bottom: 0;
