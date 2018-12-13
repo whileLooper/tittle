@@ -31,7 +31,7 @@ const Header = props => (
               props.onOpenArticle('intro')
             }}
           >
-            Intro
+            专辑介绍
           </a>
         </li>
         <li>
@@ -41,7 +41,7 @@ const Header = props => (
               props.onOpenArticle('work')
             }}
           >
-            Work
+            歌曲推荐
           </a>
         </li>
         <li>
@@ -51,7 +51,7 @@ const Header = props => (
               props.onOpenArticle('about')
             }}
           >
-            About
+            关于电影
           </a>
         </li>
         <li>
@@ -61,7 +61,7 @@ const Header = props => (
               props.onOpenArticle('contact')
             }}
           >
-            Contact
+            打赏
           </a>
         </li>
       </ul>
